@@ -20,11 +20,17 @@
       "name": "OpenSearch Contributors"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:dmnlk/ringphp.git"
+    }
+  ],
   "require": {
     "php": "^8.0",
     "ext-json": ">=1.3.7",
     "ext-curl": "*",
-    "ezimuel/ringphp": "^1.2.2",
+    "ezimuel/ringphp": "dev-feature/php84-compatible",
     "psr/log": "^1|^2|^3",
     "symfony/yaml": "*"
   },
